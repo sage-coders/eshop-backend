@@ -2,10 +2,10 @@
   "name": "eshop-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node app"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
