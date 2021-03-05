@@ -1,12 +1,5 @@
-const express = require('express');
+const http = require('http');
+const app = require('./app/server');
+const config = require('./config/config');
 
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
-app.listen(port, () => {
-  console.log('It is running...');
-});
+http.createServer(app).listen(config.PORT);
