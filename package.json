@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/sage-coders/eshop-backend#readme",
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "sequelize": "6.5.1",
+    "tedious": "11.0.6"
   },
   "devDependencies": {
     "eslint": "7.21.0",
